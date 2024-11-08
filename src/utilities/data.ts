@@ -1,47 +1,47 @@
 export const userData = [
     {
-        username: 'Sponge',
-        email: 'superSoak@email.com'
+        username: 'Roofus',
+        email: 'Roofus@email.com'
     },
 
     {
-        username: 'IzziPop',
-        email: 'izziEmail@email.com'
+        username: 'Jason',
+        email: 'JasonEmail@email.com'
     },
 
     {
-        username: 'joshLovesIzzi',
-        email: 'joshEmail@email.com'
+        username: 'Dog1',
+        email: 'dog1@email.com'
     }
 ];
 
 
 const reactions = [
     {
-        reactionBody: 'Man that really sucks :( im sorry!',
+        reactionBody: 'OH!!! :O',
         username: userData[1].username,
     },
 
     {
-        reactionBody: 'Haha Loser! Better luck next time!',
+        reactionBody: 'YEAH RIGHT',
         username: userData[0].username,
     }, 
 
     {
-        reactionBody: 'Really dude....',
+        reactionBody: 'ANYWAY....',
         username: userData[1].username,
     }
 ]
 
 export const thoughtData = [
     {
-        thoughtText: `My dog juinie has a gambling addiction and it's killing my family :(`,
+        thoughtText: `Why do we have daylight savings time in the PNW?`,
         username: userData[2].username,
         reactions: [reactions[0], reactions[1]]
     },
 
     {
-        thoughtText: `I am so dark and mysterious...`,
+        thoughtText: `I'm bored`,
         username: userData[0].username,
         reactions: [reactions[2]]
     }
