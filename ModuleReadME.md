@@ -1,10 +1,10 @@
-##Module 17 Social-Network
+Module 17 Social-Network
 
-#Introduction
+Introduction
 License: MIT | TypeScript
 This application operates on a MongoDB database, providing a social media-like experience where you interact with the app through various API routes.
 
-#Table of Contents
+Table of Contents
 Required Technologies
 Installation
 Usage
@@ -14,7 +14,7 @@ License
 Technologies
 Credits
 
-#Required Technologies
+Required Technologies
 To run this project, you’ll need Node.js and its Node Package Manager (npm).
 You can download Node.js and npm here and follow the installation instructions provided.
 
@@ -22,7 +22,7 @@ Additionally, MongoDB is required. To install MongoDB, follow this link to the M
 
 You’ll also need an API debugging tool to test interactions with the database. We recommend Insomnia, which you can install here. Follow their guide to get Insomnia set up on your system.
 
-#Installation
+Installation
 After downloading the files to your machine, open the project folder, and start a terminal session in the root directory. To install all necessary dependencies, run:
 
 bash
@@ -35,7 +35,7 @@ Copy code
 npm run start
 Additional commands are listed in the package.json file.
 
-#Usage
+Usage
 With the server running and Insomnia set up, you can now send requests to the server. You’ll be provided with a link to access the server, typically http://localhost:3001.
 
 Here’s a list of available routes and their request types. The type of request is indicated, followed by the route. Explanations and required JSON data are provided where necessary. Make sure to format your URLs like this: http://localhost:3001/api/users.
@@ -134,7 +134,7 @@ Copy code
 Delete (Removes a reaction):
 /api/thought/{thoughtId}/reactions/:reactionId
 
-#Code Snippet
+Code Snippet
 Here’s an example of the function used to add friends to a user. This function first finds the user by their ID and updates their list of friends based on the provided data. Then, it loops through each friend in the array to add the user ID to each friend’s list of friends. Upon successful addition, a confirmation message is sent.
 
 typescript
@@ -169,7 +169,7 @@ export const addFriend = async(req: Request, res: Response) => {
     }
 };
 
-#Features
+Features
 This application includes the following capabilities:
 
 View, create, update, and delete users.
@@ -179,15 +179,15 @@ View, create, update, and delete thoughts.
 View individual thoughts.
 Add or remove reactions on thoughts.
 
-#License
+License
 Licensed under the MIT license.
 
-#Technologies Used
+Technologies Used
 The mongoose docs here (general mongoose help)
 Stack Overflow (For specific mongoose issues and ideas)
 Node.js (for installing packages as well as building and running code).
 Visual Studio Code (for writing code).
 Mozila Web Docs and W3 Schools (for getting help with TypeScript).
 
-#Credits
+Credits
 Parker Speares
