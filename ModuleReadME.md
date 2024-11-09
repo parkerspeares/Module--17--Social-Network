@@ -183,11 +183,10 @@ License
 Licensed under the MIT license.
 
 Technologies Used
-The mongoose docs here (general mongoose help)
-Stack Overflow (For specific mongoose issues and ideas)
-Node.js (for installing packages as well as building and running code).
-Visual Studio Code (for writing code).
-Mozila Web Docs and W3 Schools (for getting help with TypeScript).
+Mongoose Docs
+W3S Schools
+Node.js
+Visual Studio Code 
 
 Credits
 Parker Speares
